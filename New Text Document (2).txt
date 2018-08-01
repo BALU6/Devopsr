@@ -1,0 +1,26 @@
+sudo wget http://www-eu.apache.org/dist/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz 
+
+
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add - 
+wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key            ubuntu16
+
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ >/etc/apt/sources.list.d/jenkins.list' 
+vi /etc/apt/sources.list
+deb https://pkg.jenkins.io/debian binary/
+
+
+
+
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ >/etc/apt/sources.list.d/jenkins.list'
+
+
+
+
+gameoflife-web/target/*.war 
+
+
+gameoflife-web/target/surefire-reports/*.xml
+
+https://github.com/asquarezone/game-of-life.git
+
+SONAR_MAVEN_GOAL -Dsonar.host.url=$http://18.222.224.197:9000
